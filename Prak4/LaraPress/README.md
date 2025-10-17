@@ -5,7 +5,9 @@
 ## Langkah-Langkah
 - Instal dan konfigurasikan Breeze ke dalam proyek "LaraPress"
   Masukkan perintah ini untuk mengunduh paket Breeze dan dependensinya
-  ```composer require laravel/breeze --dev```
+  ```
+  composer require laravel/breeze --dev
+  ```
 - Instalasikan Breeze
   Setelah mengunduh langsung publikasikan semua file yang dibutuhkan
   ```php artisan breeze:install```
