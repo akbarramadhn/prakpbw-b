@@ -13,14 +13,22 @@
   2. Apabila muncul pilihan dark mode support ketik "No"
   3. Dan pilih 0 untuk pest lalu enter
 - Instal depedensi JavaScript
-  ```npm install```
+  ```
+  npm install
+  ```
 - Setelah di intal, tambahkan perintah ini untuk mencompile file CSS dan JS agar bisa digunakan di browser
-  ```npm run dev```
+  ```
+  npm run dev
+  ```
 - Breeze perlu menambahkan kolom dengan cara migrate
-  ```php artisan migrate```
+  ```
+  php artisan migrate
+  ```
 - Lalu terakhir uji coba
   Uji coba dengan menggunakan perintah ini
-  ```php artisan serve```
+  ```
+  php artisan serve
+  ```
 - Setelah sudah di run dan muncul, buka vscode lalu masukkan prompt dibawah ini untuk membungkus semua rute dalam sebuah route group
 ```
 Route::middleware('auth')->group(function () {
